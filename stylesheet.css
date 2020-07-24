@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 .shadow-box {
 	height: fit-content;
 	box-shadow: 1.5px 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -64,4 +68,12 @@ button:hover {
 
 .percentage:hover {
 	background-color: darkgray;
+}
+
+/*--------------------------------------------------------------------*/
+
+@media screen and (max-width: 670px) {
+	.calculator {
+		width: 100%;
+	}
 }
