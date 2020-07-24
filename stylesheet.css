@@ -1,6 +1,8 @@
 .shadow-box {
 	height: fit-content;
-    box-shadow : 5px 4px #aaaaaa;
+	box-shadow: 1.5px 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 15px;
 }
 
 .calculator {
